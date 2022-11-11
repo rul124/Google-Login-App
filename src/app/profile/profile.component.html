@@ -1,0 +1,7 @@
+<p>profile works!</p>
+<h2>Hello! {{this.accountService.profile['Name']}}</h2>
+<p>Token: {{this.accountService.profile['Token']}}</p>
+<p>ID: {{this.accountService.profile['ID']}}</p>
+<img src="{{this.accountService.profile['Image URL']}}">
+<p>Email: {{this.accountService.profile['Email']}}</p>
+<button class="button" (click)="signOut()">Sign Out</button>
